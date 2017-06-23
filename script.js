@@ -4,7 +4,7 @@ var topics = ["Help Fail", "Bike Fail", "Child Fail", "Parent Fail", "Dog Fail",
 function displayGiphys() {
     var topic = $(this).attr("title");
     
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=9ee9c131e6b540a9a44e94467e4e1f23&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=9ee9c131e6b540a9a44e94467e4e1f23&limit=10";
     
     $.ajax({
         url: queryURL,
