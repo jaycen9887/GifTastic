@@ -103,7 +103,10 @@ $(document).ready(function(){
     $("#add-topic").on("click", function(event){
         event.preventDefault();
         var topic = $("#topic-input").val().trim();
-        topics.push(topic);
+        if(topic !== ""){
+            topics.push(topic);
+        }
+        
         displayButtons();
     });
     

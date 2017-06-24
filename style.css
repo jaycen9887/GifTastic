@@ -28,6 +28,14 @@ label {
     position: relative;
     top: -27px;
     left: 300px;
+    background-color: deepskyblue;
+    border: 2px solid deepskyblue;
+    color: white;
+}
+
+#add-topic:active{
+    top: -26px;
+    left: 301px;
 }
 
 #topicSelect {
